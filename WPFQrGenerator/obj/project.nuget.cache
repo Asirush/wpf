@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LSaMQs3O2Zi5O6HUo1AHjcA3vNcY8FQWtnVtjnYi5XvKUi02H0ggvUyvigoXZuhhXpxbjHCr8K2TRp1q/brncQ==",
+  "success": true,
+  "projectFilePath": "D:\\Learning\\wpf\\WPFQrGenerator\\WPFQrGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asiru\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

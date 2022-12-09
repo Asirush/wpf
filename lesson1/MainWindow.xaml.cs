@@ -23,6 +23,22 @@ namespace lesson1
         public MainWindow()
         {
             InitializeComponent();
+            TestWin.Title = "Asirush";
+/*
+            Button btn = new Button();
+            btn.Content = "play";
+            btn.Width= 200;
+            btn.Height= 50;
+
+            TestWin.Content = btn;
+*/
+        }
+
+        private void btnShowAlertQuick(object sender, RoutedEventArgs e)
+        {
+            Button btn = (Button)sender;
+
+            MessageBox.Show("Work in - " + DateTime.Now);
         }
     }
 }
