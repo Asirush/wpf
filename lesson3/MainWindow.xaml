@@ -103,8 +103,12 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 </WrapPanel>
             </TabItem>
 
-            <TabItem>
-                <ProgressBar Height="8" Width="350" IsIndeterminate="True"/>
+            <TabItem Header="progress bar">
+                <ProgressBar Height="8" Width="350" Minimum="0" Maximum="100" Value="50"/><!--IsIndeterminate="True"--> 
+            </TabItem>
+
+            <TabItem Header="calendar">
+                <Calendar/>
             </TabItem>
         </TabControl>
     </Grid>
