@@ -50,6 +50,39 @@
                     </Expander>
                 </StackPanel>
             </TabItem>
+
+            <TabItem Header="TextBox">
+                <StackPanel Margin="150, 10, 150, 10">
+                    <TextBox x:Name="tbxName" Text="login"></TextBox>
+                    <PasswordBox x:Name="tbxPassword"></PasswordBox>
+                </StackPanel>                
+            </TabItem>
+
+            <TabItem Header="ListBox">
+                <StackPanel>
+                    <WrapPanel>
+                        <TextBox Width="250" Margin="0,0,20,0"></TextBox>
+                        <Button Name="ok"></Button>
+                        <!--Click="Button_Click3" "Add"-->
+                    </WrapPanel>
+                    <ListBox>
+                        <ListBoxItem>item 1</ListBoxItem>
+                        <ListBoxItem>item 2</ListBoxItem>
+                        <ListBoxItem>item 3</ListBoxItem>
+                        <ListBoxItem>item 4</ListBoxItem>
+                    </ListBox>
+                </StackPanel>
+            </TabItem>
+            
+            <TabItem Header="combo box">
+                <ComboBox>
+                    <ComboBoxItem>item 1</ComboBoxItem>
+                    <ComboBoxItem>item 2</ComboBoxItem>
+                    <ComboBoxItem>item 3</ComboBoxItem>
+                    <ComboBoxItem>item 4</ComboBoxItem>
+                </ComboBox>
+            </TabItem>
+                
         </TabControl>
     </Grid>
 </Window>
