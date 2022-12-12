@@ -108,7 +108,10 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
             </TabItem>
 
             <TabItem Header="calendar">
-                <Calendar/>
+                <WrapPanel>
+                    <Calendar Width="150"/>
+                    <DatePicker Width="150"/>
+                </WrapPanel>
             </TabItem>
         </TabControl>
     </Grid>
