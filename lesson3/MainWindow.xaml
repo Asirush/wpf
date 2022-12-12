@@ -95,7 +95,17 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                     </ScrollViewer>
                 </StackPanel>
             </TabItem>
-            
+
+            <TabItem Header="Slider">
+                <WrapPanel>
+                    <Label x:Name="lbSlider" Margin="10" Width="25"></Label>
+                    <Slider  Minimum="1" Maximum="100" TickPlacement="BottomRight" TickFrequency="10" IsSnapToTickEnabled="True" IsSelectionRangeEnabled="True"></Slider>
+                </WrapPanel>
+            </TabItem>
+
+            <TabItem>
+                <ProgressBar Height="8" Width="350" IsIndeterminate="True"/>
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>
