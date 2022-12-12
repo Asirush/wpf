@@ -62,7 +62,7 @@
                 <StackPanel>
                     <WrapPanel>
                         <TextBox Width="250" Margin="0,0,20,0"></TextBox>
-                        <Button Name="ok"></Button>
+                        <Button>add</Button>
                         <!--Click="Button_Click3" "Add"-->
                     </WrapPanel>
                     <ListBox>
@@ -82,7 +82,20 @@
                     <ComboBoxItem>item 4</ComboBoxItem>
                 </ComboBox>
             </TabItem>
-                
+
+            <TabItem Header="scroll">
+                <StackPanel Height="200" Width="600">
+                    <ScrollViewer Margin="10"
+                                  VerticalScrollBarVisibility="Auto"
+                                  HorizontalScrollBarVisibility="Auto"> <!---hidden, visible, disabled-->
+                        <TextBox TextWrapping="WrapWithOverflow" Height="150"> <!-- ScrollViewer.VerticalScrollBarVisibility="Auto" -->
+                            What is Lorem Ipsum? 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </TextBox>
+                    </ScrollViewer>
+                </StackPanel>
+            </TabItem>
+            
         </TabControl>
     </Grid>
 </Window>
