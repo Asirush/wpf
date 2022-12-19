@@ -21,3 +21,5 @@ D:\Learning\wpf\lesson4\obj\Debug\net7.0-windows\lesson4.genruntimeconfig.cache
 D:\Learning\wpf\lesson4\obj\Debug\net7.0-windows\ref\lesson4.dll
 D:\Learning\wpf\lesson4\obj\Debug\net7.0-windows\MainAuthWindow.g.cs
 D:\Learning\wpf\lesson4\obj\Debug\net7.0-windows\MainAuthWindow.baml
+D:\Learning\wpf\lesson4\obj\Debug\net7.0-windows\pageOperatorList.g.cs
+D:\Learning\wpf\lesson4\obj\Debug\net7.0-windows\pageOperatorList.baml

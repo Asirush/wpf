@@ -33,15 +33,26 @@ namespace lesson4
             //lbxOperatorList.Items.Add(wp);
 
             // second method
-            List<Operator> operators = new List<Operator>();
-            operators.Add(new Operator() { Prefix = "+7 777", Logo = "logo.png", Name = "Beeline", Percent = 0.15 });
-            lvOperatorList.ItemsSource = operators;
+            //List<Operator> operators = new List<Operator>();
+            //operators.Add(new Operator() { Prefix = "+7 777", Logo = "https://play-lh.googleusercontent.com/YSMd2aaFMmeUZrnivoPFXVmfE6756FefmGhKAWEIvbvMju5jhlIEj_bXlKiP1wMyiPk", Name = "Beeline", Percent = 0.15 });
+            //lvOperatorList.ItemsSource = operators;
 
+        }
+
+        private void miOperatorList_Click(object sender, RoutedEventArgs e)
+        {
+            frameMain.Source = new Uri("pageOperatorList.xaml", UriKind.RelativeOrAbsolute);
+        }
+
+        private void miClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 
     public class Operator
     {
+        public int OperatorId { get; set; }
         public string Prefix { get; set; }
         public string Logo { get; set; }
         public string Name { get; set; }

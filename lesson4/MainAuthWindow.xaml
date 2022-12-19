@@ -7,32 +7,20 @@
         mc:Ignorable="d"
         Title="MainAuthWindow" Height="800" Width="900">
     <DockPanel>
-        <Label DockPanel.Dock="Top" Content="Menu"></Label>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="Open"></MenuItem>
+                <MenuItem Header="Create"></MenuItem>
+                <MenuItem Header="Connect"></MenuItem>
+                <MenuItem Header="Operator List" x:Name="miOperatorList" Click="miOperatorList_Click"></MenuItem>
+                <MenuItem Header="Delete"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="Close" x:Name="miClose" Click="miClose_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
         <Label DockPanel.Dock="Bottom" Content="Connection:"></Label>
-        <Grid>
-            <ListView x:Name="lvOperatorList">
-                <ListView.View>
-                    <GridView>
-                        <GridView.Columns>
-                            <GridViewColumn Header=" Phone Number Prefix " DisplayMemberBinding="{Binding Path=Prefix}"/>
-                            <GridViewColumn Header=" Company Logo " DisplayMemberBinding="{Binding Path=Logo}"/>
-                            <GridViewColumn Header=" Company Name " DisplayMemberBinding="{Binding Path=Name}"/>
-                            <GridViewColumn Header=" Payment Percent " DisplayMemberBinding="{Binding Path=Percent}"/>
-                        </GridView.Columns>
-                    </GridView>
-                </ListView.View>
-            </ListView>
-            
-            <!--<ListBox x:Name="lbxOperatorList">
-                <ListBoxItem>
-                    <WrapPanel>
-                        <Label Content="Number prefix"></Label>
-                        <Label Content="Company Logo"></Label>
-                        <Label Content="Name"></Label>
-                        <Label Content="Persent"></Label>
-                    </WrapPanel>
-                </ListBoxItem>
-            </ListBox>-->
-        </Grid>
+        <StackPanel>
+            <Frame x:Name="frameMain"></Frame>
+        </StackPanel>
     </DockPanel>
 </Window>
