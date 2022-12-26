@@ -77,7 +77,7 @@ namespace lesson4 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/lesson4;component/mainauthwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/lesson4;V1.0.0.0;component/mainauthwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MainAuthWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
