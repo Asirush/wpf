@@ -1,0 +1,16 @@
+D:\Desktop\kiwi\KIWI.Listner\bin\Debug\KIWI.Listner.exe.config
+D:\Desktop\kiwi\KIWI.Listner\bin\Debug\KIWI.Listner.exe
+D:\Desktop\kiwi\KIWI.Listner\bin\Debug\KIWI.Listner.pdb
+D:\Desktop\kiwi\KIWI.Listner\obj\Debug\KIWI.Listner.csproj.AssemblyReference.cache
+D:\Desktop\kiwi\KIWI.Listner\obj\Debug\KIWI.Listner.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\kiwi\KIWI.Listner\obj\Debug\MainWindow.g.cs
+D:\Desktop\kiwi\KIWI.Listner\obj\Debug\App.g.cs
+D:\Desktop\kiwi\KIWI.Listner\obj\Debug\KIWI.Listner_MarkupCompile.cache
+D:\Desktop\kiwi\KIWI.Listner\obj\Debug\KIWI.Listner_MarkupCompile.lref
+D:\Desktop\kiwi\KIWI.Listner\obj\Debug\MainWindow.baml
+D:\Desktop\kiwi\KIWI.Listner\obj\Debug\KIWI.Listner.g.resources
+D:\Desktop\kiwi\KIWI.Listner\obj\Debug\KIWI.Listner.Properties.Resources.resources
+D:\Desktop\kiwi\KIWI.Listner\obj\Debug\KIWI.Listner.csproj.GenerateResource.cache
+D:\Desktop\kiwi\KIWI.Listner\obj\Debug\KIWI.Listner.csproj.CoreCompileInputs.cache
+D:\Desktop\kiwi\KIWI.Listner\obj\Debug\KIWI.Listner.exe
+D:\Desktop\kiwi\KIWI.Listner\obj\Debug\KIWI.Listner.pdb

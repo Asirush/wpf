@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiwi.Paysystem", "Kiwi.Paysystem.csproj", "{2F3727CC-452D-4567-8381-4E61E9E1DF2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiwi.Paysystem.lib", "..\Kiwi.Paysystem.lib\Kiwi.Paysystem.lib.csproj", "{F3C43218-7A6E-4542-8B30-A719CA5CE3E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KIWI.Listner", "..\KIWI.Listner\KIWI.Listner.csproj", "{C32F5CE6-7749-484B-9AD2-AE01AA0655AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F3727CC-452D-4567-8381-4E61E9E1DF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3727CC-452D-4567-8381-4E61E9E1DF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3727CC-452D-4567-8381-4E61E9E1DF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3727CC-452D-4567-8381-4E61E9E1DF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C43218-7A6E-4542-8B30-A719CA5CE3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C43218-7A6E-4542-8B30-A719CA5CE3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C43218-7A6E-4542-8B30-A719CA5CE3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C43218-7A6E-4542-8B30-A719CA5CE3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32F5CE6-7749-484B-9AD2-AE01AA0655AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32F5CE6-7749-484B-9AD2-AE01AA0655AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32F5CE6-7749-484B-9AD2-AE01AA0655AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32F5CE6-7749-484B-9AD2-AE01AA0655AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B333F663-7059-4250-9433-CF148AE743CC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿<Window x:Class="ResourcesCollections.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ResourcesCollections"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resource\style.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <StackPanel Orientation="Vertical">
+        <Button Style="{StaticResource BigFontButtonStyle}" Content="a custom button"></Button>
+        <Label>Label text</Label>
+        <StackPanel Style="{StaticResource BigFontStyle}">
+            <Button Width="200" Content="hello Button"></Button>
+            <TextBox Width="200"></TextBox>
+        </StackPanel>
+
+        <Button Height="30" Style="{StaticResource TiledElement}" Content="hello background"></Button>
+    </StackPanel>
+</Window>
