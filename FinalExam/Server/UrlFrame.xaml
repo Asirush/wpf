@@ -8,10 +8,17 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="UrlFrame">
 
-    <DataGrid Grid.Column="1" ItemsSource="{Binding sites}">
-        <DataGrid.Columns>
-            <DataGridTextColumn Header="Addresses" Binding="{Binding Url}"/>
-            <DataGridTextColumn Header="Status" Binding="{Binding UrlStatus}"/>
-        </DataGrid.Columns>
-    </DataGrid>
+    <Page.Resources>
+        <local:StatusConverter x:Key="statusConverter"/>
+    </Page.Resources>
+
+    <ListView x:Name="PageSitesList">
+        <ListView.View>
+            <GridView>
+                <GridViewColumn Header="URL" DisplayMemberBinding="{Binding Url}"/>
+                <GridViewColumn Header="Status" DisplayMemberBinding="{Binding SiteAvailability}"/>
+            </GridView>
+        </ListView.View>
+    </ListView>
+
 </Page>

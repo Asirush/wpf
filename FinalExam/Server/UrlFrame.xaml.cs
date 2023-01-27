@@ -1,6 +1,8 @@
-﻿using System;
+﻿using LinqToDB;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,30 +22,27 @@ namespace Server
     {
         public string Url { get; set; }
         public bool UrlStatus { get; set; }
+
+        public string SiteAvailability { get
+            {
+                if (UrlStatus) return "available";
+                else return "not available";
+            } }
     }
-    /// <summary>
-    /// Interaction logic for UrlFrame.xaml
-    /// </summary>
+
     public partial class UrlFrame : Page
     {
+        
         public UrlFrame()
         {
             InitializeComponent();
+            GetDataClass getDataClass = new GetDataClass();
+            DataContext = this;
+            List<Site> sites = getDataClass.GetSitesFromSql();
+            PageSitesList.ItemsSource = sites;
+            StatusConverter statusConverter = new StatusConverter();
 
-            SqlConnectionProvider provider = new SqlConnectionProvider();
-
-                List<Site> sites = new List<Site>();
-                using (var connection = provider.GetOpenConnection())
-                using (var command = new SqlCommand("SELECT  url, url_status FROM sites", connection))
-                using (var reader = command.ExecuteReader())
-                {
-                    while (reader.Read())
-                    {
-                        var url = reader.GetString(0);
-                        var urlStatus = reader.GetBoolean(1);
-                        sites.Add(new Site { Url = url, UrlStatus = urlStatus });
-                    }
-                }
+            App._PageSitesList = PageSitesList;
         }
     }
 }

@@ -46,6 +46,8 @@ namespace Server
                     }
                 }
                 this.Close();
+                GetDataClass getDataClass = new GetDataClass();
+                App._PageSitesList.ItemsSource = getDataClass.GetSitesFromSql();
             }
             catch {}
         }

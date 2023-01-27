@@ -25,7 +25,7 @@ namespace Server
         public MainWindow()
         {
             InitializeComponent();
-            UrlFrame.Source = new Uri("UrlFrame.xaml", UriKind.RelativeOrAbsolute);
+            
         }
 
         public bool CheckConnection(string connectionString)
@@ -57,6 +57,12 @@ namespace Server
         {
             DeleteUriPage deleteUriPage = new DeleteUriPage();
             deleteUriPage.Show();
+        }
+
+        private void BtnUpdateUrl_Click(object sender, RoutedEventArgs e)
+        {
+            GetDataClass getDataClass = new GetDataClass();
+            App._PageSitesList.ItemsSource = getDataClass.GetSitesFromSql();
         }
     }
 }

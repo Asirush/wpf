@@ -32,3 +32,5 @@ D:\Learning\wpf\FinalExam\Server\bin\Debug\net7.0-windows\runtimes\win-x86\nativ
 D:\Learning\wpf\FinalExam\Server\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Learning\wpf\FinalExam\Server\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Learning\wpf\FinalExam\Server\obj\Debug\net7.0-windows\Server.csproj.CopyComplete
+D:\Learning\wpf\FinalExam\Server\bin\Debug\net7.0-windows\linq2db.dll
+D:\Learning\wpf\FinalExam\Server\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs

@@ -77,7 +77,7 @@ namespace Server {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Server;component/deleteuripage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Server;V1.0.0.0;component/deleteuripage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\DeleteUriPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

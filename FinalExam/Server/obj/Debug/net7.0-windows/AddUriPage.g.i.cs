@@ -77,7 +77,7 @@ namespace Server {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Server;component/adduripage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Server;V1.0.0.0;component/adduripage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddUriPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

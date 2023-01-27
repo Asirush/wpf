@@ -50,6 +50,9 @@ namespace Server
                     Console.WriteLine($"{rowsAffected} rows were inserted into the sites table.");
                 }
                 Close();
+
+                GetDataClass getDataClass = new GetDataClass();
+                App._PageSitesList.ItemsSource = getDataClass.GetSitesFromSql();
             }
             catch {  }
         }

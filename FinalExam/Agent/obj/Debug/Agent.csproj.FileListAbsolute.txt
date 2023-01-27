@@ -1,0 +1,7 @@
+D:\Learning\wpf\FinalExam\Agent\obj\Debug\Agent.csproj.AssemblyReference.cache
+D:\Learning\wpf\FinalExam\Agent\obj\Debug\Agent.csproj.SuggestedBindingRedirects.cache
+D:\Learning\wpf\FinalExam\Agent\obj\Debug\App.g.cs
+D:\Learning\wpf\FinalExam\Agent\obj\Debug\Agent_Content.g.cs
+D:\Learning\wpf\FinalExam\Agent\obj\Debug\Agent_MarkupCompile.cache
+D:\Learning\wpf\FinalExam\Agent\obj\Debug\MainWindow.g.cs
+D:\Learning\wpf\FinalExam\Agent\obj\Debug\Agent_MarkupCompile.lref
